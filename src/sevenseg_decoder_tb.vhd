@@ -8,7 +8,7 @@ architecture Behavioral of sevenseg_decoder_tb is
 
     -- Component Declaration
     component sevenseg_decoder is
-        Port ( 
+        port ( 
             i_Hex   : in  STD_LOGIC_VECTOR (3 downto 0);
             o_seg_n : out STD_LOGIC_VECTOR (6 downto 0)
         );
