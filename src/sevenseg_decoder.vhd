@@ -50,14 +50,14 @@ o_seg_n <=  "1000000" when x"0",
         "0000010" when x"6",
         "1111000" when x"7",
         "0000000" when x"8",
-        "1011000" when x"9",
+        "0011000" when x"9",
         "0001000" when x"A",
         "0000011" when x"B",
         "0100111" when x"C",
         "0100001" when x"D",
         "0000110" when x"E",
         "0001110" when x"F",
-        "0000" when others;
+        "1111111" when others;
 
 
 
